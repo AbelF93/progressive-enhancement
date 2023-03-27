@@ -1,0 +1,12 @@
+p {
+    font-family: serif; font-size: 16px ; color: midnightblue; word-spacing: 3px;
+}
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; word-spacing: 2px; color:rgb(238, 117, 36); font-weight: 200; font: 2em;
+}
+a:visited {
+color:aqua;
+}
+a:hover {
+    font-weight: 600; color: blueviolet;
+}
