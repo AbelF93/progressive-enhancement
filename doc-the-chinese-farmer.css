@@ -18,7 +18,7 @@ a:hover {
     font-weight: 600; color: blueviolet;
 }
 q {
-width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); padding: 0px 0px 0px 30px; font-style: italic;border-left: 3px solid firebrick;
+width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); padding: 0px 0px 0px 30px; font-style: italic ;border-left: 3px solid firebrick;
 }
 span  {
     text-transform: capitalize;
@@ -31,4 +31,37 @@ span  {
 }
 header h1 {
 background-color: yellow; width: 27%; text-align: center;
+}
+.Good {
+    color: green;
+}
+.Bad {
+    color:red;
+}
+table {
+    border-collapse:collapse ;width: 20%;
+}
+td,th {
+    border: 1px solid black; text-align: center;
+}
+tr:nth-child(1), tr:nth-child(3),tr:nth-child(5) {
+ background-color: #808080;
+}
+tr:nth-child(2), tr:nth-child(4) {
+    background-color: #ffffff;
+   }
+ul li:nth-child(1){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/bien.png?token=GHSAT0AAAAAACAOHXELSUPPOCP3HMQ2P5XWZBC62PQ");background-repeat: no-repeat; background-size: contain; background-position: +250px; padding-right: 10px; 
+}
+ul li:nth-child(2){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/mal.png?token=GHSAT0AAAAAACAOHXELCCHWRM24Y3LR5UAEZBC62SA"); background-repeat: no-repeat; padding-right: 200px; background-size: contain; background-position: +240px ;
+}
+ul li:nth-child(3){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/chat.png?token=GHSAT0AAAAAACAOHXELD7QXJJQPY6ELPJYGZBC62TQ"); background-repeat: no-repeat; padding-right: 200px; background-size: contain; background-position: +245px ;
+}
+li{
+    font-size: 16px; font-family: Serif;
+}
+header p:first-child{
+    font-weight: bold;
 }
