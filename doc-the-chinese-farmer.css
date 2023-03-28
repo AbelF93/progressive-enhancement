@@ -23,3 +23,12 @@ width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199
 span  {
     text-transform: capitalize;
 }
+.Villagers {
+    border-left: 3px solid rgb(241, 100, 81);
+}
+.Farmer {
+    border-left: 3px solid blueviolet;
+}
+header h1 {
+background-color: yellow; width: 27%; text-align: center;
+}
