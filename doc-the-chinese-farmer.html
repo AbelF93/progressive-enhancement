@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+     .Villagers {
+        border-left: 3px solid rgb(241, 100, 81);
+      }
+      .Farmer {
+        border-left: 3px solid blueviolet;
+      }
+    </style>
     <link rel="stylesheet" type="text/css" href="doc-the-chinese-farmer.css" />
   </head>
         <body>
             <header>
                 <!--Tags: (h1,h2=head1,head2), (p=paragraph), (q=quote), (br=break line), (ul,ol,li=unordered list,ordered list,list), (img=image),(tr,td,th=table row,table data,table header)-->
             <h1>The Story of the Chinese Farmer</h1>
-            <blockquote><q>Is it a <good="Good">good</good> thing? Is that a <bad="Bad">bad</bad> thing? I don't know.</q>
+            <blockquote><q>Is it a <span class="Good">good</span> thing? Is that a <span class="Bad">bad</span> thing? I don't know.</q>
                <br/><caption>May 11, 2016, Alexandre Gorius</caption></blockquote>
-               <p>In nature, <good>Good</good> & <bad>Evil</bad> do not exist. The Universe itself is neither <good>good</good> nor <bad>bad</bad>, but a potential in permanent development.</p>
+               <p>In nature, <span class="Good">Good</span> & <span class="Bad">Evil</span> do not exist. The Universe itself is neither <span class="Good">good</span> nor <span bad="Bad">bad</span>, but a potential in permanent development.</p>
                
                <p>In life, the are 4 types of people.</p>
-               <ul> <li>people who think the Internet is <good>good</good>,</li>
-                    <li>people who think the Internet is <bad>evil</bad>,</li>
-                    <li>people who think the Internet is <bad>cats</bad>,</li>
+               <ul> <li>people who think the Internet is <span class="Good">good</span>,</li>
+                    <li>people who think the Internet is <span class="Bad">evil</span>,</li>
+                    <li>people who think the Internet is <span class="Bad">cats</span>,</li>
                     <li>people who don't think about it.</li>
                </ul>
             </header>
@@ -34,11 +42,25 @@
                <br/>
                <caption>The Old Chinese Farmer</caption>
                
-               <p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most <bad>unfortunate</bad>.” The farmer said, “Is it <good>good</good>? Is it <bad>bad</bad>? I don't know.” The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that <good>lucky</good>. What a great turn of events. You now have eight horses!” The farmer again said, “Is it <good>good</good>? Is it <bad>bad</bad>? I don't know.” </p>
+               <p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said,</p>
+               <q class="Villagers">We are so sorry to hear your horse has run away. This is most <span class="Bad">unfortunate</span>.</q>
+               <p>The farmer said,</p>
+               <q class="Farmer">Is it <span class="Good">good</span>? Is it <span class="Bad">bad</span>? I don't know.</q>
+               <p>The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said,</p>
+               <q class="Villagers">Oh, isn’t that <span class="Good">lucky</span>. What a great turn of events. You now have eight horses!</q> 
+               <p>The farmer again said,</p> 
+               <q class="Farmer">Is it <span class="Good">good</span>? Is it <span class="Bad">bad</span>? I don't know.</q>
                
-               <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, “Oh dear, that’s too <bad>bad</bad>,” and the farmer responded, “Is it <good>good</good>? Is it <bad>bad</bad>? I don't know.” The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, “Isn’t that <good>great</good>!” Again, he said, “Is it <good>good</good>? Is it <bad>bad</bad>? I don't know.”</p>
+               <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said,</p> 
+               <q class="Villagers">Oh dear, that’s too <span class="Bad">bad</span>,</q>
+               <p>and the farmer responded,</p>
+               <q class="Farmer">Is it <span class="Good">good</span>? Is it <span class="Bad">bad</span>? I don't know.</q>
+               <p>The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said,</p>
+               <q class="Villagers">Isn’t that <span class="Good">great</span>!</q>
+               <p>Again, he said,</p> 
+               <q class="Farmer">Is it <span class="Good">good</span>? Is it <span class="Bad">bad</span>? I don't know.</q>
                
-               <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <good>good</good> or <bad>bad</bad> — because you never know what will be the consequence of the <bad>misfortune</bad>; or, you never know what will be the consequences of <good>good fortune</good>.</p>
+               <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <span good="Good">good</span> or <span bad="Bad">bad</span> — because you never know what will be the consequence of the <span bad="Bad">misfortune</span>; or, you never know what will be the consequences of <span good="Good">good fortune</span>.</p>
                
                <p>Alan Watts</p>
                <hr/>
@@ -57,7 +79,7 @@
 
                 
                 <h2>Conclusion</h2>
-                <p><good>Good</good> and <bad>Bad</bad> are just one perspective. Bananas are <good>good</good> for monkeys, but monkeys are <bad>not good</bad> for bananas. Let's not make a big deal out of it...</p>
+                <p><span class="Good">Good</span> and <span class="Bad">Bad</span> are just one perspective. Bananas are <span class="Good">good</span> for monkeys, but monkeys are <span class="Bad">not good</span> for bananas. Let's not make a big deal out of it...</p>
                 
                 <hr/>
                 <footer>

@@ -1,3 +1,4 @@
+
 body {
     max-width: 90%; margin: 50px 100px 50px 100px;
     background: -webkit-linear-gradient(68deg, rgb(246, 252, 255), rgb(182, 146, 146));
@@ -16,6 +17,9 @@ color:aqua;
 a:hover {
     font-weight: 600; color: blueviolet;
 }
-blockquote {
-width: 50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); border-left: 3px solid firebrick; padding: 0px 0px 0px 30px;
+q {
+width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); padding: 0px 0px 0px 30px; font-style: italic;border-left: 3px solid firebrick;
+}
+span  {
+    text-transform: capitalize;
 }
