@@ -105,7 +105,22 @@ article:nth-last-child(2){
     bottom: 30px;
     right: 30px;
 }
-/*OpenSans Font*/
+/*3.Web Fonts: OpenSans Font*/
 html{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/*4.Useful Tools:
+-Reset CSS:url="https://www.alsacreations.com/astuce/lire/36-reset-css.html" or Normalize CSS:url="https://github.com/necolas/normalize.css"*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+}
+/*4.W3C Validation: does not pass/url="https://validator.w3.org/#validate_by_uri+with_options"
+*/
+/*4.W3C Google Lighthouse Test: does not pass/url="https://developer.chrome.com/docs/lighthouse/overview/"*/
