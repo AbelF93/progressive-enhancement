@@ -5,9 +5,7 @@ body {
     background: linear-gradient(68deg, rgb(246, 252, 255), rgb(182, 146, 146));
     background-image: url('https://rare-gallery.com/uploads/posts/350690-4k-wallpaper.jpg');background-repeat: no-repeat;background-position: bottom right;background-size: cover; 
 }
-p {
-    font-family: serif; font-size: 16px ; color: midnightblue; word-spacing: 3px;
-}
+
 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; word-spacing: 2px; color:rgb(238, 117, 36); font-weight: 200; font: 2em;
 }
@@ -106,4 +104,8 @@ article:nth-last-child(2){
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+/*OpenSans Font*/
+html{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
