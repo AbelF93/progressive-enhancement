@@ -123,4 +123,7 @@ html{
 }
 /*4.W3C Validation: does not pass/url="https://validator.w3.org/#validate_by_uri+with_options"
 */
-/*4.W3C Google Lighthouse Test: does not pass/url="https://developer.chrome.com/docs/lighthouse/overview/"*/
+/*4.W3C Google Lighthouse Test: does not pass/url="https://developer.chrome.com/docs/lighthouse/overview/"
+http://localhost:8080/ does not authorise connexion, asking for firewall check ou proxy server deconnection: all checked and won't work
+==>non-JS module files deprecated ==> Could not load source 'chromewebdata/(index)꞉6573:22': Source not found.*/
+/*4. Emmet package:url="https://emmet.io"*/
