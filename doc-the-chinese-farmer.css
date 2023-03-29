@@ -50,6 +50,7 @@ tr:nth-child(1), tr:nth-child(3),tr:nth-child(5) {
 tr:nth-child(2), tr:nth-child(4) {
     background-color: #ffffff;
    }
+/*ne comprends pas comment faire bouger l'image en arrière-plan, par le biais de padding-right*/
 ul li:nth-child(1){
     background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/bien.png?token=GHSAT0AAAAAACAOHXELSUPPOCP3HMQ2P5XWZBC62PQ");background-repeat: no-repeat; background-size: contain; background-position: +250px; padding-right: 10px; 
 }
@@ -62,6 +63,20 @@ ul li:nth-child(3){
 li{
     font-size: 16px; font-family: Serif;
 }
+/*ne s'applique pas, pourquoi ?*/
 header p:first-child{
     font-weight: bold;
+}
+/*Float Images*/
+.beerspray{
+    float:left; height: 300px; margin-right: 10px;
+}
+.oldman{
+    float:left; margin-right: 10px; 
+}
+.old{
+    height: 250px;
+}
+.trashground{
+     height: 300px;
 }
