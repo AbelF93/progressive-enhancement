@@ -18,16 +18,16 @@ a:hover {
     font-weight: 600; color: blueviolet;
 }
 q {
-width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); padding: 0px 0px 0px 30px; font-style: italic ;border-left: 3px solid firebrick;
+width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); font-style: italic ;border-left: 3px solid firebrick;
 }
 span  {
     text-transform: capitalize;
 }
 .Villagers {
-    border-left: 3px solid rgb(241, 100, 81);
+    border-left: 3px solid rgb(241, 100, 81); width: 100%; 
 }
 .Farmer {
-    border-left: 3px solid blueviolet;
+    border-left: 3px solid blueviolet; width: 100%;
 }
 header h1 {
 background-color: yellow; width: 27%; text-align: center;
@@ -67,16 +67,31 @@ li{
 header p:first-child{
     font-weight: bold;
 }
-/*Float Images*/
-.beerspray{
-    float:left; height: 300px; margin-right: 10px;
+/*Flexbox Images*/
+.section1{
+    display:flex;
+    justify-content: space-between;
+}
+article:nth-child(1){
+    flex-wrap: wrap;
+    flex:1;
+    width: 500px;
+    
+}
+article:nth-last-child(2){
+    flex-direction: wrap;
+    flex: 3;
+    width: 500px;
+}
+.section2{
+  display:flex;
+  justify-content: space-around;
 }
 .oldman{
-    float:left; margin-right: 10px; 
+    flex-shrink: 6;
+    flex:1;
 }
-.old{
-    height: 250px;
-}
-.trashground{
-     height: 300px;
+.thinking{
+    flex-direction: column;
+    flex: 4; 
 }
