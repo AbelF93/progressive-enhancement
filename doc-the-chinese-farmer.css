@@ -1,0 +1,129 @@
+
+body {
+    max-width: 90%; margin: 50px 100px 50px 100px;
+    background: -webkit-linear-gradient(68deg, rgb(246, 252, 255), rgb(182, 146, 146));
+    background: linear-gradient(68deg, rgb(246, 252, 255), rgb(182, 146, 146));
+    background-image: url('https://rare-gallery.com/uploads/posts/350690-4k-wallpaper.jpg');background-repeat: no-repeat;background-position: bottom right;background-size: cover; 
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; word-spacing: 2px; color:rgb(238, 117, 36); font-weight: 200; font: 2em;
+}
+a:visited {
+color:aqua;
+}
+a:hover {
+    font-weight: 600; color: blueviolet;
+}
+q {
+width:50%; margin: 80px 25% 80px 25%; font-size: 160%; background-color: rgb(199, 197, 197); font-style: italic ;border-left: 3px solid firebrick;
+}
+span  {
+    text-transform: capitalize;
+}
+.Villagers {
+    border-left: 3px solid rgb(241, 100, 81); width: 100%; 
+}
+.Farmer {
+    border-left: 3px solid blueviolet; width: 100%;
+}
+header h1 {
+background-color: yellow; width: 27%; text-align: center;
+}
+.Good {
+    color: green;
+}
+.Bad {
+    color:red;
+}
+table {
+    border-collapse:collapse ;width: 20%;
+}
+td,th {
+    border: 1px solid black; text-align: center;
+}
+tr:nth-child(1), tr:nth-child(3),tr:nth-child(5) {
+ background-color: #808080;
+}
+tr:nth-child(2), tr:nth-child(4) {
+    background-color: #ffffff;
+   }
+/*ne comprends pas comment faire bouger l'image en arrière-plan, par le biais de padding-right*/
+ul li:nth-child(1){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/bien.png?token=GHSAT0AAAAAACAOHXELSUPPOCP3HMQ2P5XWZBC62PQ");background-repeat: no-repeat; background-size: contain; background-position: +250px; padding-right: 10px; 
+}
+ul li:nth-child(2){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/mal.png?token=GHSAT0AAAAAACAOHXELCCHWRM24Y3LR5UAEZBC62SA"); background-repeat: no-repeat; padding-right: 200px; background-size: contain; background-position: +240px ;
+}
+ul li:nth-child(3){
+    background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/chat.png?token=GHSAT0AAAAAACAOHXELD7QXJJQPY6ELPJYGZBC62TQ"); background-repeat: no-repeat; padding-right: 200px; background-size: contain; background-position: +245px ;
+}
+li{
+    font-size: 16px; font-family: Serif;
+}
+/*ne s'applique pas, pourquoi ?*/
+header p:first-child{
+    font-weight: bold;
+}
+/*Flexbox Images*/
+.section1{
+    display:flex;
+    justify-content: space-between;
+}
+article:nth-child(1){
+    flex-wrap: wrap;
+    flex:1;
+    width: 500px;
+    
+}
+article:nth-last-child(2){
+    flex-direction: wrap;
+    flex: 3;
+    width: 500px;
+}
+.section2{
+  display:flex;
+  justify-content: space-around;
+}
+.oldman{
+    flex-shrink: 6;
+    flex:1;
+}
+.thinking{
+    flex-direction: column;
+    flex: 4; 
+}
+/*notification*/
+.notification{
+    background:#ffff00;
+    padding:.5rem 1rem;
+    border:3px solid #000000;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+/*3.Web Fonts: OpenSans Font*/
+html{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*4.Useful Tools:
+-Reset CSS:url="https://www.alsacreations.com/astuce/lire/36-reset-css.html" or Normalize CSS:url="https://github.com/necolas/normalize.css"*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+}
+/*4.W3C Validation: does not pass/url="https://validator.w3.org/#validate_by_uri+with_options"
+*/
+/*4.W3C Google Lighthouse Test: does not pass/url="https://developer.chrome.com/docs/lighthouse/overview/"
+http://localhost:8080/ does not authorise connexion, asking for firewall check ou proxy server deconnection: all checked and won't work
+==>non-JS module files deprecated ==> Could not load source 'chromewebdata/(index)꞉6573:22': Source not found.*/
+/*4. Emmet package:url="https://emmet.io"*/
